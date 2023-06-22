@@ -30,4 +30,4 @@ jobs:
     - name: Build with Maven
       run: mvn clean package
     - name: Copy 'target' directory
-      run: cp -r target $GITHUB_WORKSPACE/target
+      run: cp -r target $GITHUB_WORKSPACE/copied-target
